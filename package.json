@@ -1,19 +1,21 @@
 {
-  "name": "modules",
-  "version": "1.0.0",
+  "name": "modules-webpack",
+  "version": "1.0.1",
+  "description": "Решение первой задачи",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "serve": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Temo4kin",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "html-webpack-plugin": "^5.6.3",
-    "http-server": "^14.1.1",
-    "webpack": "^5.97.1",
-    "webpack-cli": "^5.1.4"
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.3"
   }
 }
